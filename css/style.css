@@ -1,0 +1,772 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, b, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  margin: 0;
+}
+
+.header__cabecalho {
+  width: 100%;
+  background-color: #041E50;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+.header__cabecalho li {
+  margin-top: 16px;
+  margin-bottom: 12px;
+  color: #fff;
+  font-family: "Lato bold", sans-serif;
+  border-right: #fff solid 1px;
+  letter-spacing: 1px;
+}
+.header__cabecalho li a {
+  text-decoration: none;
+  margin-right: 3rem;
+  padding-left: 7.4rem;
+  font-size: 10px;
+  color: #fff;
+}
+.header__cabecalho li a img {
+  margin-right: 15px;
+  width: 17px;
+}
+.header__cabecalho li:last-child {
+  border-right: none;
+}
+.header__contato {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-top: 17px;
+  justify-content: center;
+  border-bottom: 1px solid rgba(120, 117, 117, 0.22);
+  padding-bottom: 19px;
+}
+.header__logo {
+  align-items: center;
+  display: flex;
+}
+.header__logo img {
+  margin-right: 41px;
+}
+.header__logo input {
+  font-family: "Lato regular", sans-serif;
+  text-transform: uppercase;
+  width: 339px;
+  height: 41px;
+  border-radius: 4px;
+  margin-right: 48.72px;
+}
+.header__icons {
+  display: flex;
+  align-items: center;
+}
+.header__icons img {
+  width: 21.75px;
+  height: 21.75px;
+  margin-right: 9.53px;
+  cursor: pointer;
+}
+.header__icons a {
+  text-decoration: none;
+  font-size: 10px;
+  color: #041E50;
+  margin-right: 38px;
+  font-family: "Lato bold", sans-serif;
+}
+.header__usuario {
+  display: flex;
+  align-items: center;
+}
+.header__usuario img {
+  width: 21.75px;
+  height: 21.75px;
+}
+.header__usuario div .apresentacao {
+  text-decoration: none;
+  font-size: 10px;
+  color: #041E50;
+  text-transform: uppercase;
+  font-family: "Lato bold", sans-serif;
+}
+.header__usuario div .login {
+  text-decoration: none;
+  font-size: 7px;
+  color: #041E50;
+  text-transform: uppercase;
+  font-family: "Lato regular", sans-serif;
+}
+.header__carrinho {
+  position: absolute;
+  width: 77px;
+  height: 102px;
+  margin-top: 19px;
+  right: 14%;
+  background-color: #041E50;
+  align-items: center;
+}
+.header__carrinho .icon {
+  text-align: center;
+  margin-top: 19px;
+  margin-bottom: 20px;
+}
+.header__carrinho img {
+  width: 22.07px;
+  height: 27.35px;
+}
+.header__carrinho .descricao {
+  margin-top: 10px;
+}
+.header__carrinho .carrinho {
+  color: #fff;
+  font-size: 7px;
+  text-align: center;
+}
+.header__carrinho .item {
+  color: #fff;
+  font-size: 10px;
+  text-align: center;
+  font-family: "Lato regular", sans-serif;
+}
+.header__nav ul {
+  width: 100%;
+  text-transform: uppercase;
+  font-family: "Lato bold", sans-serif;
+  font-size: 10px;
+  color: #041E50;
+  justify-content: center;
+  display: flex;
+  margin-top: 14px;
+}
+.header__nav ul li {
+  text-decoration: none;
+  height: 15px;
+  padding-bottom: 15px;
+  margin-right: 50px;
+  margin-left: 50px;
+  cursor: pointer;
+  border-bottom: 5px solid #FFF;
+}
+.header__nav ul li select {
+  border: 0 none;
+  text-transform: uppercase;
+  font-family: "Lato regular", sans-serif;
+  font-size: 10px;
+  cursor: pointer;
+}
+.header__nav ul li a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.header__nav ul li:hover {
+  border-bottom: 5px solid #041E50;
+}
+
+.footer {
+  width: 100%;
+  height: 389px;
+  background-color: #041E50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.direitos {
+  width: 100%;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFF;
+  font-family: "Lato light", sans-serif;
+}
+.direitos__descricao {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-right: 225px;
+}
+.direitos img {
+  width: 83.56px;
+  height: 30.39px;
+  padding-left: 41.9px;
+}
+
+.categorias ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 34px;
+}
+.categorias ul li {
+  padding-right: 60px;
+}
+.categorias ul img {
+  opacity: 0.6;
+  width: 106px;
+  height: 106px;
+}
+.categorias ul a {
+  text-decoration: none;
+}
+.categorias ul p {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "Lato bold", sans-serif;
+  color: #041E50;
+  letter-spacing: 1px;
+  margin-top: 19px;
+}
+
+.banner {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  text-transform: uppercase;
+}
+.banner .carousel {
+  width: 100%;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+.banner .item {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.banner__carousel {
+  width: 100%;
+}
+.banner__carousel img {
+  width: 100%;
+}
+.banner__descricao {
+  position: absolute;
+  align-items: center;
+  left: 19%;
+  z-index: 10;
+  top: 38%;
+}
+.banner__descricao .titulo {
+  font-family: "Lato light", sans-serif;
+  color: #FFF;
+  font-size: 16px;
+}
+.banner__descricao .descricao {
+  font-family: "Lato bold", sans-serif;
+  color: #FFF;
+  letter-spacing: 2px;
+  font-size: 46px;
+  margin-top: 15px;
+}
+.banner__descricao p {
+  font-family: "Lato light", sans-serif;
+  letter-spacing: 5.2px;
+  color: #FFF;
+  font-size: 46px;
+  margin-top: 15px;
+}
+.banner button {
+  width: 155px;
+  letter-spacing: 2px;
+  height: 45px;
+  margin-top: 25px;
+  font-family: "Lato regular", sans-serif;
+  text-transform: uppercase;
+  color: #FFF;
+  border: none;
+  border-right: none;
+  border-left: none;
+  background: rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+.banner .bottom {
+  width: 77px;
+  border-bottom: 1px solid #fff;
+  margin-left: 39%;
+  opacity: 0.6;
+}
+.banner .splide__pagination__page.is-active {
+  width: 50px;
+  transform: scale(0.4);
+  transition: none;
+}
+.banner button.splide__arrow.splide__arrow--next {
+  height: 50%;
+  width: 9%;
+}
+.banner button.splide__arrow.splide__arrow--prev {
+  height: 50%;
+  width: 9%;
+}
+.banner .splide__arrow svg {
+  fill: #FFF;
+  width: auto;
+  height: auto;
+}
+
+.novidades {
+  display: flex;
+  width: 100%;
+}
+.novidades__item {
+  width: 50%;
+  position: relative;
+  margin-top: 34px;
+}
+.novidades__item img {
+  width: 100%;
+}
+.novidades__caption {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.novidades__caption .novi {
+  font-family: "Lato light", sans-serif;
+  color: #FFF;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  margin-bottom: 15px;
+}
+.novidades__caption .novi::before {
+  content: "";
+  width: 19px;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  margin-left: -10px;
+  display: block;
+  height: 2px;
+  background: #FFF;
+}
+.novidades__caption h2 {
+  font-family: "Lato bold", sans-serif;
+  color: #FFF;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+.novidades__caption .subtitulo {
+  font-family: "Lato light", sans-serif;
+  color: #FFF;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+.novidades__caption a {
+  display: block;
+  font-size: 13px;
+  line-height: 50px;
+  border: 1px solid #FFF;
+  text-decoration: none;
+  color: #FFF;
+  font-family: "Lato regular", sans-serif;
+  border-radius: 5px;
+  width: 155px;
+  height: 50px;
+  margin-top: 25px;
+  transition: linear 0.3s;
+  text-transform: uppercase;
+}
+.novidades__caption a:hover {
+  background-color: #FFF;
+  color: #000;
+}
+
+.loja {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.loja__header {
+  font-family: "Lato regular", sans-serif;
+  margin-top: 95px;
+  color: #041E50;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.loja__header .titulo {
+  font-size: 25px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.loja__header .intro {
+  margin-top: 15px;
+  font-size: 16px;
+}
+.loja .card {
+  margin-top: 78px;
+  width: 216px;
+  height: 264px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+}
+.loja .card .produto {
+  font-family: "Lato bold", sans-serif;
+  color: #041E50;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.loja .card .descricao {
+  font-family: "Lato light", sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  line-height: 0.8rem;
+  margin-top: 10px;
+}
+.loja .card .preco {
+  font-family: "Lato bold", sans-serif;
+  color: #041E50;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+.loja .card:hover {
+  box-shadow: 10px 10px 30px #b0b0b0;
+}
+
+.marca__descricao {
+  font-family: "Lato regular", sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+.marca__descricao .titulo {
+  font-size: 25px;
+  color: #041E50;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.marca__descricao .intro {
+  font-size: 16px;
+  color: #A5A5A5;
+  margin-top: 15px;
+  margin-bottom: 102px;
+}
+.marca .slide {
+  height: 100px;
+}
+.marca ul {
+  align-items: center;
+  justify-content: center;
+}
+.marca li {
+  text-align: center;
+}
+.marca img {
+  width: 100px;
+  opacity: 0.6;
+}
+.marca img:hover {
+  cursor: pointer;
+  opacity: 100%;
+}
+.marca .splide__pagination__page {
+  visibility: hidden;
+}
+.marca .splide__arrow {
+  background-color: rgba(255, 255, 255, 0);
+}
+.marca .splide__arrow svg {
+  fill: #041E50;
+}
+.marca__sobreNos {
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 134.7px;
+}
+.marca__sobreNos .descricao {
+  width: 1001px;
+}
+.marca__sobreNos .titulo {
+  font-size: 26px;
+  color: #041E50;
+  font-family: "Lato bold", sans-serif;
+  text-transform: uppercase;
+}
+.marca__sobreNos .intro {
+  margin-top: 33px;
+  font-family: "Lato light", sans-serif;
+  font-size: 12px;
+  color: #222222;
+  line-height: 1rem;
+}
+
+.carousel {
+  margin-top: 84px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel__comentarios {
+  background-color: #F7F7F7;
+  height: 174px;
+  box-shadow: 10px 0px 20px rgba(120, 117, 117, 0.22);
+  justify-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 20px;
+}
+.carousel__comentarios .usuario {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carousel__comentarios img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  margin-right: 12px;
+}
+.carousel__comentarios .info .nome {
+  font-family: "Lato bold", sans-serif;
+  color: #041E50;
+  font-size: 12px;
+}
+.carousel__comentarios .info .profissao {
+  font-family: "Lato regular", sans-serif;
+  color: #041E50;
+  font-size: 10px;
+}
+.carousel__comentarios .balao {
+  width: 543px;
+  height: 75px;
+  background-color: #FFF;
+  border-radius: 10px;
+  margin-left: 12.5px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 20px;
+  box-shadow: 10px 0px 20px rgba(120, 117, 117, 0.22);
+  font-size: 13px;
+  font-family: "Lato regular", sans-serif;
+}
+.carousel .splide__pagination li {
+  visibility: hidden;
+}
+.carousel .splide__arrow svg {
+  fill: #707070;
+  width: 100%;
+  height: 100%;
+}
+.carousel .splide__arrow {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.institucional {
+  font-family: "Lato bold", sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+}
+.institucional a {
+  color: #fff;
+  font-family: "Lato regular", sans-serif;
+  text-decoration: none;
+  font-size: 12px;
+}
+.institucional p {
+  font-size: 14px;
+}
+.institucional__lista ul {
+  margin-top: 20px;
+}
+.institucional__lista ul li {
+  line-height: 1.5rem;
+}
+.institucional__atendimento {
+  margin-top: 30px;
+}
+.institucional__atendimento ul {
+  margin-top: 20px;
+}
+.institucional__atendimento ul li {
+  line-height: 1.5rem;
+}
+
+.suporte {
+  padding-left: 100px;
+  font-family: "Lato bold", sans-serif;
+  color: #FFF;
+  text-transform: uppercase;
+}
+.suporte__lista {
+  margin-top: 20px;
+}
+.suporte__lista a {
+  font-family: "Lato regular", sans-serif;
+  text-decoration: none;
+  color: #FFF;
+  line-height: 1.5rem;
+}
+.suporte__social {
+  margin-top: 41.9px;
+}
+.suporte__social ul {
+  display: flex;
+}
+.suporte__social ul li {
+  padding-right: 20.07px;
+}
+.suporte__social ul li img {
+  width: 15px;
+  height: 15px;
+}
+
+.pagamento {
+  color: #FFF;
+  text-transform: uppercase;
+  padding-left: 100px;
+  font-family: "Lato bold", sans-serif;
+}
+.pagamento__card {
+  width: 109px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.pagamento__card ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.pagamento__card ul li {
+  padding: 1px;
+}
+.pagamento__seguro {
+  margin-top: 16px;
+}
+.pagamento__seguro ul {
+  display: flex;
+}
+.pagamento__seguro ul li:last-child {
+  padding-left: 9px;
+}
+
+.formulario {
+  font-family: "Lato regular", sans-serif;
+  color: #041E50;
+  margin-left: 100px;
+  width: 276px;
+  height: 249px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  background: #FFF;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.formulario__conteudo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.formulario__conteudo .titulo {
+  font-size: 19px;
+  letter-spacing: 1px;
+}
+.formulario__conteudo .subtitulo {
+  font-size: 16px;
+  line-height: 15px;
+}
+.formulario__conteudo input {
+  width: 218px;
+  text-transform: uppercase;
+  color: #041E50;
+  font-family: "Lato regular", sans-serif;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 1px solid #041E50;
+  padding: 10px;
+}
+.formulario .botao {
+  width: 100%;
+}
+.formulario .botao button {
+  margin-top: 19px;
+  background-color: #FFF;
+  width: 110px;
+  height: 35px;
+  text-transform: uppercase;
+  color: #041E50;
+  border-radius: 10px;
+  margin-right: 120px;
+}
+
+/*# sourceMappingURL=style.css.map */

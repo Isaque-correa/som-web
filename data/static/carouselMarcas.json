@@ -1,0 +1,54 @@
+[
+    {
+        "id": "1",
+        "img": "/assets/imagem/marcas/akg.png"
+    },
+    {
+        "id": "2",
+        "img": "/assets/imagem/marcas/roland.png"
+    },
+    {
+        "id": "3",
+        "img": "/assets/imagem/marcas/boss.png"
+    },
+    {
+        "id": "4",
+        "img": "/assets/imagem/marcas/shure.png"
+    },
+    {
+        "id": "5",
+        "img": "/assets/imagem/marcas/casio.png"
+    },
+    {
+        "id": "6",
+        "img": "/assets/imagem/marcas/das-logo.png"
+    },
+    {
+        "id": "7",
+        "img": "/assets/imagem/marcas/fender.png"
+    },
+    {
+        "id": "8",
+        "img": "/assets/imagem/marcas/jbl.png"
+    },
+    {
+        "id": "9",
+        "img": "/assets/imagem/marcas/korg.png"
+    },
+    {
+        "id": "10",
+        "img": "/assets/imagem/marcas/soundcraft.png"
+    },
+    {
+        "id": "11",
+        "img": "/assets/imagem/marcas/tagima.png"
+    },
+    {
+        "id": "12",
+        "img": "/assets/imagem/marcas/yamaha.png"
+    },
+    {
+        "id": "13",
+        "img": "/assets/imagem/marcas/behringer.png"
+    }
+]

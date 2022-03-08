@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/som-web/static/css/main.1503db10.css",
+    "main.js": "/som-web/static/js/main.cb64d4d6.js",
+    "index.html": "/som-web/index.html",
+    "main.1503db10.css.map": "/som-web/static/css/main.1503db10.css.map",
+    "main.cb64d4d6.js.map": "/som-web/static/js/main.cb64d4d6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1503db10.css",
+    "static/js/main.cb64d4d6.js"
+  ]
+}
