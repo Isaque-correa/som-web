@@ -1,0 +1,81 @@
+.carousel {
+    margin-top: 84px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include tablet{
+       display: none;
+      }
+      @include mobile{
+        display: none;
+       }
+
+    &__comentarios {
+        background-color: #F7F7F7;
+        //width: 1002px;
+        height: 174px;
+        box-shadow: 10px 0px 20px rgb(120 117 117 / 22%);
+        justify-items: center;
+        justify-content: center;
+        display: flex;
+        border-radius: 20px;
+
+        .usuario {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50px;
+            margin-right: 12px;
+        }
+
+        .info {
+            .nome {
+                @include font;
+                @include color-primaria;
+                font-size: 12px;
+            }
+
+            .profissao {
+                @include font-regular;
+                @include color-primaria;
+                font-size: 10px;
+            }
+        }
+
+        .balao {
+            width: 543px;
+            height: 75px;
+            background-color: #FFF;
+            border-radius: 10px;
+            margin-left: 12.5px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            padding: 20px;
+            box-shadow: 10px 0px 20px rgb(120 117 117 / 22%);
+            font-size: 13px;
+            @include font-regular;
+        }
+    }
+
+    .splide__pagination li {
+        visibility: hidden;
+    }
+
+    .splide__arrow svg {
+        fill: #707070;
+        width: 100%;
+        height: 100%;
+    }
+
+    .splide__arrow {
+        background-color: rgba($color: #000000, $alpha: 0.0);
+    }
+}

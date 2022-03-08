@@ -1,0 +1,360 @@
+.header {
+    .header__fexed {
+        @include mobile {
+            position: fixed;
+            background: #FFF;
+            width: 100%;
+            z-index: 2;
+        }
+
+    }
+
+
+
+    &__cabecalho {
+        width: 100%;
+        @include backgroud-primaria;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+
+        .phone {
+            display: none;
+
+            @include mobile {
+                display: flex;
+                width: 100%;
+                padding-left: 11%;
+
+            }
+
+            a {
+                display: flex;
+                color: #FFF;
+                align-items: center;
+                justify-content: center;
+                align-content: center;
+                text-align: center;
+                text-decoration: none;
+                padding: 5px;
+                font-size: 8px;
+                @include font-regular;
+
+            }
+
+
+        }
+
+        @include mobile {
+            display: flex;
+
+        }
+
+        li {
+            margin-top: 16px;
+            margin-bottom: 12px;
+            color: #fff;
+            @include font;
+            border-right: #fff solid 1px;
+            letter-spacing: 1px;
+
+            @include tablet {
+                border: 0;
+            }
+
+            @include mobile {
+                display: block;
+
+
+            }
+
+            a {
+                text-decoration: none;
+
+                margin-right: 3rem;
+                padding-left: 7.4rem;
+                font-size: 10px;
+                color: #fff;
+
+                @include tablet {
+                    padding: 0;
+                }
+
+                @include mobile {
+                    display: none;
+                    width: 100%;
+
+
+                }
+
+                img {
+                    margin-right: 15px;
+                    width: 17px;
+
+
+                }
+            }
+
+
+        }
+
+        li:last-child {
+            border-right: none;
+        }
+
+    }
+
+    &__contato {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        margin-top: 17px;
+        justify-content: center;
+        border-bottom: 1px solid rgba(120, 117, 117, 0.22);
+        padding-bottom: 19px;
+
+        @include tablet {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    &__logo {
+        align-items: center;
+        display: flex;
+
+        @include mobile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+
+
+        }
+
+        img {
+            margin-right: 41px;
+
+            @include mobile {
+                margin-right: 0;
+            }
+        }
+
+        input {
+            @include font-regular;
+            text-transform: uppercase;
+            width: 339px;
+            height: 41px;
+            border-radius: 4px;
+            margin-right: 48.72px;
+
+            @include mobile {
+                margin: 0;
+                width: 90%;
+
+
+            }
+
+        }
+
+    }
+
+    &__icons {
+        display: flex;
+        align-items: center;
+
+        @include tablet {
+            margin-top: 10px;
+            margin-left: 50px;
+        }
+
+        @include mobile {
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+
+
+        }
+
+        img {
+            width: 21.75px;
+            height: 21.75px;
+            margin-right: 9.53px;
+            cursor: pointer;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 10px;
+            @include color-primaria;
+            margin-right: 38px;
+            @include font;
+
+            @include tablet {
+                font-size: 15px;
+
+            }
+        }
+
+    }
+
+    &__usuario {
+        display: flex;
+        align-items: center;
+
+        @include tablet {
+            display: none;
+        }
+
+        @include mobile {
+            display: none;
+
+
+
+        }
+
+        img {
+            width: 21.75px;
+            height: 21.75px;
+        }
+
+        div {
+            .apresentacao {
+                text-decoration: none;
+                font-size: 10px;
+                @include color-primaria;
+                text-transform: uppercase;
+                @include font;
+            }
+
+            .login {
+                text-decoration: none;
+                font-size: 7px;
+                @include color-primaria;
+                text-transform: uppercase;
+                @include font-regular;
+            }
+
+        }
+
+    }
+
+    &__carrinho {
+        position: absolute;
+        width: 77px;
+        height: 102px;
+        margin-top: 19px;
+        right: 6%;
+        @include backgroud-primaria;
+        align-items: center;
+
+        @include tablet {
+            display: none;
+        }
+
+        @include mobile {
+            display: none;
+            width: 100%;
+
+
+        }
+
+        .icon {
+            text-align: center;
+            margin-top: 19px;
+            margin-bottom: 20px;
+        }
+
+        img {
+            width: 22.07px;
+            height: 27.35px;
+
+        }
+
+        .descricao {
+            margin-top: 10px;
+        }
+
+        .carrinho {
+            color: #fff;
+            font-size: 7px;
+            text-align: center;
+        }
+
+        .item {
+            color: #fff;
+            font-size: 10px;
+            text-align: center;
+            @include font-regular;
+
+        }
+    }
+
+    &__nav {
+
+
+        ul {
+            width: 100%;
+            text-transform: uppercase;
+            @include font;
+            font-size: 10px;
+            @include color-primaria;
+            justify-content: center;
+            display: flex;
+            margin-top: 14px;
+
+            @include mobile {
+                display: none;
+
+
+            }
+
+            li {
+                text-decoration: none;
+                height: 15px;
+                padding-bottom: 15px;
+                margin-right: 50px;
+                margin-left: 50px;
+                cursor: pointer;
+                border-bottom: 5px solid #FFF;
+
+                @include tablet {
+                    margin-left: 25px;
+                    margin-right: 25px;
+                }
+
+                select {
+                    border: 0 none;
+                    text-transform: uppercase;
+                    @include font-regular;
+                    font-size: 10px;
+                    cursor: pointer;
+
+                }
+
+                a {
+                    text-decoration: none;
+                    cursor: pointer;
+                }
+            }
+
+            li:hover {
+                border-bottom: 5px solid #041E50;
+
+                @include mobile {
+                    display: none;
+                }
+
+            }
+
+
+        }
+
+
+    }
+}

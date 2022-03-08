@@ -1,0 +1,45 @@
+.institucional {
+    @include font;
+    color: #fff;
+    text-transform: uppercase;
+    @include mobile{
+        display: none;
+    }
+    @include tablet{
+        display: none;
+       }
+
+    a {
+        color: #fff;
+        @include font-regular;
+        text-decoration: none;
+        font-size: 12px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    &__lista {
+        ul {
+            margin-top: 20px;
+
+            li {
+                line-height: 1.5rem;
+            }
+        }
+
+    }
+
+    &__atendimento {
+        margin-top: 30px;
+
+        ul {
+            margin-top: 20px;
+
+            li {
+                line-height: 1.5rem;
+            }
+        }
+    }
+}

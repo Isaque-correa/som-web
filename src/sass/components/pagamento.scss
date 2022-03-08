@@ -1,0 +1,44 @@
+.pagamento {
+    color: #FFF;
+    text-transform: uppercase;
+    padding-left: 100px;
+    @include font;
+    @include mobile{
+        padding: 10px;
+        
+    }
+    &__card {
+        width: 109px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        @include mobile{
+            width: 100%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+
+            display: flex;
+            flex-wrap: wrap;
+
+            li {
+                padding: 1px;
+            }
+        }
+
+    }
+
+    &__seguro {
+        margin-top: 16px;
+
+        ul {
+            display: flex;
+
+            li:last-child {
+                padding-left: 9px;
+            }
+
+        }
+    }
+}

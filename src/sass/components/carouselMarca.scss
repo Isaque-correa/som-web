@@ -1,0 +1,119 @@
+.marca {
+    &__descricao {
+        @include font-regular;
+        text-align: center;
+        margin-top: 100px;
+
+        .titulo {
+            font-size: 25px;
+            @include color-primaria;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            @include mobile{
+                letter-spacing: 1px;
+            }
+        }
+
+        .intro {
+            font-size: 16px;
+            color: #A5A5A5;
+            margin-top: 15px;
+            margin-bottom: 102px;
+        }
+    }
+
+    &__sobreNos {
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 134.7px;
+
+        @include mobile {
+            width: 100%;
+
+        }
+
+        .descricao {
+            width: 1001px;
+
+            @include mobile {
+                width: 100%;
+                margin-bottom: 30px;
+            }
+
+            @include tablet {
+                width: 100%;
+                margin-bottom: 30px;
+            }
+
+        }
+
+        .titulo {
+            font-size: 26px;
+            @include color-primaria;
+            @include font;
+            text-transform: uppercase;
+        }
+
+        .intro {
+            margin-top: 33px;
+            @include font-light;
+            font-size: 12px;
+            color: #222222;
+            line-height: 1rem;
+        }
+    }
+    .splide__pagination__page {
+        display: none;
+    }
+
+    .splide__arrow {
+        background-color: rgba($color: #FFF, $alpha: 0.0);
+
+    }
+
+    .splide__arrow svg {
+        fill: #041E50;
+    }
+    @include mobile{
+        .splide__arrow--next{
+            display: none;
+        }
+        .splide__arrow--prev{
+            display: none;
+        }
+    }
+   
+}
+.slide {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 35vh;
+    ul {
+      
+        li {
+           
+            padding: 10px;
+            img {
+                width: 100%;
+                opacity: 0.6;
+            }
+        
+            img:hover {
+                cursor: pointer;
+                opacity: 100%;
+            }
+            
+        }
+        
+        
+    }
+    
+    
+}

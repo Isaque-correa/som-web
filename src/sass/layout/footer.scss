@@ -1,0 +1,46 @@
+.footer {
+    width: 100%;
+    height: 389px;
+    @include backgroud-primaria;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include mobile {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.direitos {
+    width: 100%;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF;
+    @include font-light;
+
+    @include mobile {
+        display: none;
+    }
+
+    &__descricao {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding-right: 225px;
+
+        @include tablet {
+            display: block;
+            width: 100%;
+            padding: 0;
+        }
+    }
+
+    img {
+        width: 83.56px;
+        height: 30.39px;
+        padding-left: 41.9px;
+    }
+}

@@ -1,0 +1,41 @@
+.suporte {
+    padding-left: 100px;
+    @include font;
+    color: #FFF;
+    text-transform: uppercase;
+    @include mobile{
+        display: none;
+    }
+    @include tablet{
+        display: none;
+    }
+
+    &__lista {
+        margin-top: 20px;
+
+        a {
+            @include font-regular;
+            text-decoration: none;
+            color: #FFF;
+            line-height: 1.5rem;
+        }
+    }
+
+    &__social {
+        margin-top: 41.9px;
+
+        ul {
+            display: flex;
+
+            li {
+                padding-right: 20.07px;
+
+                img {
+                    width: 15px;
+                    height: 15px;
+                }
+            }
+        }
+    }
+
+}

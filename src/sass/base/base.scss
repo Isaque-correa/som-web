@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import 'reset';
+
+@mixin font {
+    font-family: 'Lato bold', sans-serif;
+}
+
+@mixin font-regular {
+    font-family: 'Lato regular', sans-serif;
+}
+
+@mixin font-light {
+    font-family: 'Lato light', sans-serif;
+}
+
+@mixin color-primaria {
+    color: #041E50;
+}
+
+@mixin backgroud-primaria {
+    background-color: #041E50;
+}
+@mixin mobile {
+    @media (max-width: 599px) { @content; }
+  }
+@mixin tablet {
+    @media (max-width: 1124px) { @content; }
+}
+body {
+    margin: 0;
+}

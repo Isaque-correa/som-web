@@ -1,0 +1,88 @@
+
+.lojaCarousel {
+    display: none;
+    
+    @include mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+       
+        
+    }
+    .card {
+        margin-top: 78px;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        
+        
+
+    .item{
+        
+        .produto {
+            @include font;
+            @include color-primaria;
+            font-size: 15px;
+            letter-spacing: 1px;
+        }
+
+        img {
+            width: 45%
+        }
+
+        .descricao {
+            @include font-light;
+            font-size: 10px;
+            letter-spacing: 0.5px;
+            line-height: 0.8rem;
+            margin-top: 10px
+        }
+
+        .preco {
+            @include font;
+            @include color-primaria;
+            font-size: 18px;
+            letter-spacing: 1px;
+            margin-top: 10px;
+        }
+
+    }
+
+    }
+        
+       
+    .margin{
+        margin-top: 10px;
+       
+        .buy{
+            @include font;
+            color: #FFF;
+            border: 1px solid #041E50;
+            background-color: #041E50;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 0px 20px 0px 20px;
+            
+            
+        }
+    }
+    
+
+    .splide__arrow--next{
+        display: none;
+    }
+    .splide__arrow--prev{
+        display: none;
+    }
+    .splide__arrow {
+        display: none;
+    }
+    .splide__pagination li{
+        display: none;
+    }
+
+}

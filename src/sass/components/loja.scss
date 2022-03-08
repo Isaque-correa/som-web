@@ -1,0 +1,104 @@
+.loja {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+
+    &__header {
+        @include font-regular;
+        margin-top: 95px;
+        @include color-primaria;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+
+        .titulo {
+            font-size: 25px;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+        }
+
+        .intro {
+            margin-top: 15px;
+            font-size: 16px;
+        }
+
+
+    }
+
+    .card {
+        margin-top: 78px;
+        text-align: center;
+        justify-content: center;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        
+        @include mobile{
+            display: none;
+        }
+
+        .item {
+            width: 216px;
+            border-radius: 5px;
+            margin: 50px;
+            padding: 15px;
+            cursor: pointer;
+        }
+
+        .produto {
+            @include font;
+            @include color-primaria;
+            font-size: 15px;
+            letter-spacing: 1px;
+        }
+        img{
+            width: 100%
+        }
+
+        .descricao {
+            @include font-light;
+            font-size: 10px;
+            letter-spacing: 0.5px;
+            line-height: 0.8rem;
+            margin-top: 10px
+        }
+
+        .preco {
+            @include font;
+            @include color-primaria;
+            font-size: 18px;
+            letter-spacing: 1px;
+            margin-top: 10px;
+        }
+
+    }
+    .verMais{
+        text-transform: uppercase;
+        text-decoration: none;
+        @include font-regular;
+        @include color-primaria;
+        width: 155px;
+        height: 45px;
+        border-radius: 10px;
+        border: 2px solid #041E50;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        cursor: pointer;
+        @include mobile{
+            display: none;
+        }
+    }
+    .verMais:hover{
+        @include backgroud-primaria;
+        color: #FFF;
+    }
+    .item:hover {
+        box-shadow: 10px 10px 30px #b0b0b0;
+    }
+
+}
