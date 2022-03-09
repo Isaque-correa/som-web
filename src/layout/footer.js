@@ -22,8 +22,8 @@ function Footer() {
             07.282.516/0001-15
           </p>
         </div>
-        <a href="https://econverse.com.br/"><img src="/assets/imagem/icon/econverse.png"/></a>
-        <a href="https://vtex.com/br-pt/"><img src="/assets/imagem/icon/vtex.png"/></a>
+        <a href="https://econverse.com.br/"><img src="assets/imagem/icon/econverse.png"/></a>
+        <a href="https://vtex.com/br-pt/"><img src="assets/imagem/icon/vtex.png"/></a>
       </div>
     </>
   );
