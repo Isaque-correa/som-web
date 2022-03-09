@@ -3,6 +3,7 @@ import "@splidejs/splide/dist/css/splide.min.css";
 import React from "react";
 import { useEffect, useState } from "react";
 import infoLoja from "../../services/infoLoja";
+import options from "../../services/option";
 import Modal from "../modal/modal";
 
 function LojaCarousel() {
@@ -18,9 +19,10 @@ function LojaCarousel() {
     setProductModal("");
   };
   useEffect(() => {
-    infoLoja
-      .get("produtos.json")
-      .then((response) => setData(response.data))
+    
+      fetch(options.urlProdutosApi)
+      .then((response) => response.json())
+      .then(setData)
       .catch((err) => {
         console.error("ops! ocorreu um erro" + err);
       });
