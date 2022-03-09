@@ -8,14 +8,14 @@ function Header() {
             <li>
             <div className="phone">
               <a href="#">
-                <img src="/assets/imagem/icon/icon-telefone.png" />
+                <img src="assets/imagem/icon/icon-telefone.png" />
                 <p>Central de atendimento</p>
               </a>
             </div>
             </li>
             <li>
               <a href="#">
-                <img src="/assets/imagem/icon/icons-cadeado.png" alt="" />
+                <img src="assets/imagem/icon/icons-cadeado.png" alt="" />
                 Comprar 100%
               </a>
             </li>
@@ -27,7 +27,7 @@ function Header() {
             </li>
             <li>
               <a href="#">
-                <img src="/assets/imagem/icon/icon-frete.png" alt="" />
+                <img src="assets/imagem/icon/icon-frete.png" alt="" />
                 Entrega em todo o Brasil
               </a>
             </li>
@@ -36,12 +36,12 @@ function Header() {
         <div className="header__contato">
           <div className="header__logo">
             <a href="">
-              <img src="../assets/imagem/logo.png" alt="" />
+              <img src="assets/imagem/logo.png" alt="" />
             </a>
             <input type="text" placeholder="Busque Aqui..." />
           </div>
           <div className="header__icons">
-            <img src="../assets/imagem/icon/icon-whatsapp.png" alt="" />
+            <img src="assets/imagem/icon/icon-whatsapp.png" alt="" />
             <a href="#">(11)99999-9999</a>
           </div>
           <div className="header__usuario">
@@ -61,7 +61,7 @@ function Header() {
           </div>
           <div className="header__carrinho">
             <div className="icon">
-              <img src="/assets/imagem/icon/icons-carrinho.png" alt="" />
+              <img src="assets/imagem/icon/icons-carrinho.png" alt="" />
             </div>
 
             <div className="descricao">

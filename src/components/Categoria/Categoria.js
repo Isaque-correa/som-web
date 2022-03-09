@@ -10,37 +10,37 @@ function Categoria (){
                 <li>
                     <a href="#">
                         
-                        <img src="/assets/imagem/categorias/guitarra.jpg" alt=""/>
+                        <img src="assets/imagem/categorias/guitarra.jpg" alt=""/>
                         <p>Guitarras</p>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="/assets/imagem/categorias/microfone.jpg" alt=""/>
+                        <img src="assets/imagem/categorias/microfone.jpg" alt=""/>
                         <p>microfones</p>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="/assets/imagem/categorias/mesa de som.jpg" alt=""/>
+                        <img src="assets/imagem/categorias/mesa de som.jpg" alt=""/>
                         <p>Mesas de som</p>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="/assets/imagem/categorias/teclado.jpg" alt=""/>
+                        <img src="assets/imagem/categorias/teclado.jpg" alt=""/>
                         <p>Teclados</p>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="/assets/imagem/categorias/violao.jpg" alt=""/>
+                        <img src="assets/imagem/categorias/violao.jpg" alt=""/>
                         <p>Violão</p>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="/assets/imagem/categorias/bateria.jpg" alt=""/>
+                        <img src="assets/imagem/categorias/bateria.jpg" alt=""/>
                         <p>Baterias</p>
                     </a>
                 </li>

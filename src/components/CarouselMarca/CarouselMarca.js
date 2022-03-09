@@ -1,11 +1,12 @@
 import React from "react";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import { useEffect, useState } from "react";
+import options from "../../services/option";
 
 function CarouselMarca() {
   const [data, setData] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:3000/data/static/carouselMarcas.json")
+    fetch(options.urlCarousselMarcasApi)
       .then((response) => response.json())
       .then(setData);
   }, []);

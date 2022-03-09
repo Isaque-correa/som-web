@@ -22,7 +22,7 @@ function CategoriaCarousel() {
           <SplideSlide>
             <li>
               <a href="#">
-                <img src="/assets/imagem/guitarra.jpg" alt="" />
+                <img src="assets/imagem/categorias/guitarra.jpg" alt="" />
                 <p>Guitarras</p>
               </a>
             </li>
@@ -30,7 +30,7 @@ function CategoriaCarousel() {
           <SplideSlide>
             <li>
               <a href="#">
-                <img src="/assets/imagem/microfone.jpg" alt="" />
+                <img src="assets/imagem/categorias/microfone.jpg" alt="" />
                 <p>microfones</p>
               </a>
             </li>
@@ -38,7 +38,7 @@ function CategoriaCarousel() {
           <SplideSlide>
             <li>
               <a href="#">
-                <img src="/assets/imagem/mesa de som.jpg" alt="" />
+                <img src="assets/imagem/categorias/mesa de som.jpg" alt="" />
                 <p>Mesas de som</p>
               </a>
             </li>
@@ -46,7 +46,7 @@ function CategoriaCarousel() {
           <SplideSlide>
             <li>
               <a href="#">
-                <img src="/assets/imagem/teclado.jpg" alt="" />
+                <img src="assets/imagem/categorias/teclado.jpg" alt="" />
                 <p>Teclados</p>
               </a>
             </li>
@@ -54,7 +54,7 @@ function CategoriaCarousel() {
           <SplideSlide>
             <li>
               <a href="#">
-                <img src="/assets/imagem/violao.jpg" alt="" />
+                <img src="assets/imagem/categorias/violao.jpg" alt="" />
                 <p>Violão</p>
               </a>
             </li>
@@ -62,7 +62,7 @@ function CategoriaCarousel() {
           <SplideSlide>
             <li>
               <a href="#">
-                <img src="/assets/imagem/bateria.jpg" alt="" />
+                <img src="assets/imagem/categorias/bateria.jpg" alt="" />
                 <p>Baterias</p>
               </a>
             </li>

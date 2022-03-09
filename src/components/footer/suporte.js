@@ -26,17 +26,17 @@ function Suporte() {
         <ul>
           <li>
             <a href="#">
-              <img src="/assets/imagem/redeSocial/instagram.png" />
+              <img src="assets/imagem/redeSocial/instagram.png" />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="/assets/imagem/redeSocial/twitter.png" />
+              <img src="assets/imagem/redeSocial/twitter.png" />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="/assets/imagem/redeSocial/facebook.png" />
+              <img src="assets/imagem/redeSocial/facebook.png" />
             </a>
           </li>
         </ul>

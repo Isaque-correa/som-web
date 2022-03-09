@@ -2,11 +2,12 @@ import React from 'react';
 import { useEffect, useState } from "react";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
+import options from '../../services/option';
 
 function CarouselDestaque() {
   const [data, setData] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:3000/data/static/carousel.json")
+    fetch(options.urlCarousselApi)
       .then((response) => response.json())
       .then(setData);
   }, []);

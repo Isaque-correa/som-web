@@ -4,7 +4,7 @@ function Novidades() {
   return (
     <section className="novidades">
       <div className="novidades__item">
-        <img src="/assets/imagem/novidade-audio.png" alt="" />
+        <img src="assets/imagem/novidade-audio.png" alt="" />
         <div className="novidades__caption">
           <p className="novi">Novidades</p>
           <h2>
@@ -18,7 +18,7 @@ function Novidades() {
         </div>
       </div>
       <div className="novidades__item">
-        <img src="/assets/imagem/novidade-instrumentos.png" alt="" />
+        <img src="assets/imagem/novidade-instrumentos.png" alt="" />
         <div className="novidades__caption">
           <p className="novi">Novidades</p>
           <h2>

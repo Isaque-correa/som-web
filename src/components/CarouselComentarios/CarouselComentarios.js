@@ -1,11 +1,12 @@
 import React from "react";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import { useEffect, useState } from "react";
+import options from "../../services/option";
 
 function CarouselComentario() {
   const [data, setData] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:3000/data/static/carouselComentarios.json")
+    fetch(options.urlCarousselComentariosApi)
       .then((response) => response.json())
       .then(setData);
   }, []);
