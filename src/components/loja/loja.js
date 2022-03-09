@@ -1,6 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import infoLoja from "../../services/infoLoja";
+import options from "../../services/option";
 import Modal from "../modal/modal";
 import LojaCarousel from "./LojaCarousel";
 
@@ -18,7 +19,7 @@ function Loja() {
   };
   useEffect(() => {
     infoLoja
-      .get("./produtos.json")
+      .get(options.urlProdutosApi)
       .then((response) => setData(response.data))
       .catch((err) => {
         console.error("ops! ocorreu um erro" + err);
