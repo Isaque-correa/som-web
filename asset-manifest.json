@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "http://localhost:3000/static/css/main.1503db10.css",
-    "main.js": "http://localhost:3000/static/js/main.a2d8556c.js",
-    "index.html": "http://localhost:3000/index.html",
-    "main.1503db10.css.map": "http://localhost:3000/static/css/main.1503db10.css.map",
-    "main.a2d8556c.js.map": "http://localhost:3000/static/js/main.a2d8556c.js.map"
+    "main.css": "/som-web/static/css/main.1503db10.css",
+    "main.js": "/som-web/static/js/main.a2d8556c.js",
+    "index.html": "/som-web/index.html",
+    "main.1503db10.css.map": "/som-web/static/css/main.1503db10.css.map",
+    "main.a2d8556c.js.map": "/som-web/static/js/main.a2d8556c.js.map"
   },
   "entrypoints": [
     "static/css/main.1503db10.css",
