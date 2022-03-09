@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/som-web/static/css/main.1503db10.css",
-    "main.js": "/som-web/static/js/main.78d3e216.js",
+    "main.js": "/som-web/static/js/main.b5bea911.js",
     "index.html": "/som-web/index.html",
     "main.1503db10.css.map": "/som-web/static/css/main.1503db10.css.map",
-    "main.78d3e216.js.map": "/som-web/static/js/main.78d3e216.js.map"
+    "main.b5bea911.js.map": "/som-web/static/js/main.b5bea911.js.map"
   },
   "entrypoints": [
     "static/css/main.1503db10.css",
-    "static/js/main.78d3e216.js"
+    "static/js/main.b5bea911.js"
   ]
 }
