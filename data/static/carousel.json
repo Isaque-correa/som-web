@@ -2,35 +2,35 @@
     {
         "id": "1",
         "name": "ola",
-        "image": "/assets/imagem/banner.png",
+        "image": "assets/imagem/banner.png",
         "titulo": "novos produtos",
         "descricaoNegrito": "instrumentos",
         "descricao": "Profissionais"
     },
     {
         "id": "2",
-        "image": "/assets/imagem/banner.png",
+        "image": "assets/imagem/banner.png",
         "titulo": "novos produtos",
         "descricaoNegrito": "instrumentos",
         "descricao": "Profissionais"
     },
     {
         "id": "3",
-        "image": "/assets/imagem/banner.png",
+        "image": "assets/imagem/banner.png",
         "titulo": "novos produtos",
         "descricaoNegrito": "instrumentos",
         "descricao": "Profissionais"
     },
     {
         "id": "4",
-        "image": "/assets/imagem/banner.png",
+        "image": "assets/imagem/banner.png",
         "titulo": "novos produtos",
         "descricaoNegrito": "instrumentos",
         "descricao": "Profissionais"
     },
     {
         "id": "5",
-        "image": "/assets/imagem/banner.png",
+        "image": "assets/imagem/banner.png",
         "titulo": "novos produtos",
         "descricaoNegrito": "instrumentos",
         "descricao": "Profissionais"
