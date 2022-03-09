@@ -1,7 +1,7 @@
 {
+  "homepage": "https://isaque-correa.github.io/som-web",
   "name": "ninjasom-loja",
   "version": "0.1.0",
-  "homepage": "https://Isaque-correa.github.io/som-web",
   "private": true,
   "dependencies": {
     "@splidejs/react-splide": "^0.6.17",
