@@ -2,10 +2,7 @@ import React, { useState } from "react";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
 function CategoriaCarousel() {
-  //   const [size, setSize] = useState([window.innerWidth]);
-  //   if (size < 912) {
-  //     <h1>Ola mundo</h1>;
-  //   }
+ 
   return (
     <section className="categoriaCarousel">
       <ul>

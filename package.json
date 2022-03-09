@@ -1,7 +1,7 @@
 {
- 
   "name": "ninjasom-loja",
   "version": "0.1.0",
+  "homepage": "https://Isaque-correa.github.io/som-web",
   "private": true,
   "dependencies": {
     "@splidejs/react-splide": "^0.6.17",
@@ -17,7 +17,8 @@
     "web-vitals": "^2.1.2"
   },
   "scripts": {
-    
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build"
   },

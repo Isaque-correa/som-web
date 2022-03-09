@@ -4,75 +4,75 @@
     {
       "productName": "Bateria Eletrônica",
       "descriptionShort": "Many desktop publishing packages and web page editors now Many",
-      "photo": "/data/static/img/bateria-eletronica.jpg",
+      "photo": "/assets/imagem/loja/bateria-eletronica.jpg",
       "price": 149990
     },
     {
       "productName": "Kit de Pratos",
       "descriptionShort": "Many desktop publishing packages and web page editors now Many",
-      "photo": "/data/static/img/kit-pratos.jpg",
+      "photo": "/assets/imagem/loja/kit-pratos.jpg",
       "price": 149990
     },
     {
       "productName": "Pedal Duplo para Bumbo",
       "descriptionShort": "Many desktop publishing packages and web page editors now Many",
-      "photo": "/data/static/img/pedal-duplo.jpg",
+      "photo": "/assets/imagem/loja/pedal-duplo.jpg",
       "price": 149990
     },
     {
       "productName": "Módulo para Bateria",
       "descriptionShort": "Many desktop publishing packages and web page editors now Many",
-      "photo": "/data/static/img/modulo-bateria.jpg",
+      "photo": "/assets/imagem/loja/modulo-bateria.jpg",
       "price": 149990
     },
 
     {
       "productName": "Prato 17” Medium Crash",
       "descriptionShort": "Many desktop publishing packages and web page editors now Many",
-      "photo": "/data/static/img/prato17.jpg",
+      "photo": "/assets/imagem/loja/prato17.jpg",
       "price": 149990
     },
     {
       "productName": "Kit Bag para Tambores",
       "descriptionShort": "Many desktop publishing packages and web page editors now Many",
-      "photo": "/data/static/img/kit-bag-tambores.jpg",
+      "photo": "/assets/imagem/loja/kit-bag-tambores.jpg",
       "price": 149990
     },
     {
       "productName": "Banco para Bateria",
       "descriptionShort": "Many desktop publishing packages and web page editors now Many",
-      "photo": "/data/static/img/cadeira.jpg",
+      "photo": "/assets/imagem/loja/cadeira.jpg",
       "price": 149990
     },
     {
       "productName": "Pedestal para Percussão",
       "descriptionShort": "Many desktop publishing packages and web page editors now Many",
-      "photo": "/data/static/img/pedestal.jfif",
+      "photo": "/assets/imagem/loja/pedestal.jfif",
       "price": 149990
     },
 
     {
       "productName": "Mixer de Video",
       "descriptionShort": "Many desktop publishing packages and web page editors now Many",
-      "photo": "/data/static/img/mixer.jpg",
+      "photo": "/assets/imagem/loja/mixer.jpg",
       "price": 149990
     },
     {
       "productName": "Guitarra Jackson",
       "descriptionShort": "Many desktop publishing packages and web page editors now Many",
-      "photo": "/data/static/img/guitarra-jackson.jpg",
+      "photo": "/assets/imagem/loja/guitarra-jackson.jpg",
       "price": 149990
     },
     {
       "productName": "Contrabaixo Elétrico",
       "descriptionShort": "Many desktop publishing packages and web page editors now Many",
-      "photo": "/data/static/img/contrabaixo.png",
+      "photo": "/assets/imagem/loja/contrabaixo.png",
       "price": 149990
     },
     {
       "productName": "Sistema de Microfone s/ Fio",
       "descriptionShort": "Many desktop publishing packages and web page editors now Many",
-      "photo": "/data/static/img/sistemassemfio.png",
+      "photo": "/assets/imagem/loja/sistemassemfio.png",
       "price": 149990
     }
   ]
